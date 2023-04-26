@@ -9,7 +9,7 @@ namespace atividade
     public class Triangulo : Figura
     {
         public double Lado { get; set; }
-        public override double CalcularArea => this.Lado * this.Lado;
+        public override double CalcularArea => this.Lado * this.Lado * this.Lado / 2;
 
     }
 }
