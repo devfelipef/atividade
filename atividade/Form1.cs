@@ -14,7 +14,7 @@ namespace atividade
             //valor ja definido "3"
             circulo.Raio = 3;
 
-            MessageBox.Show("A ·rea do cÌrculo È: " + circulo.CalcularArea);
+            MessageBox.Show("A √°rea de raio 3 do c√≠rculo √©: " + circulo.CalcularArea);
 
         }
 
@@ -24,7 +24,7 @@ namespace atividade
 
             retangulo.Lado = 3;
 
-            MessageBox.Show("A ·rea do ret‚ngulo È: " + retangulo.CalcularArea);
+            MessageBox.Show("A √°rea de lado 3 do ret√¢ngulo √©: " + retangulo.CalcularArea);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -33,7 +33,7 @@ namespace atividade
 
             triangulo.Lado = 3;
 
-            MessageBox.Show("A ·rea do tri‚ngulo È: " + triangulo.CalcularArea);
+            MessageBox.Show("A √°rea de lado 3 do tri√¢ngulo √©: " + triangulo.CalcularArea);
 
         }
     }
